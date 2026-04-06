@@ -12,7 +12,7 @@ from io import BytesIO
 # -------------------------
 st.set_page_config(
     layout="wide",
-    page_title="Seller Issue Dashboard",
+    page_title="Support Ticket Resolution Dashboard",
     page_icon="📊"
 )
 
@@ -251,7 +251,7 @@ def delta_text_days(current, previous):
 # -------------------------
 # TITLE
 # -------------------------
-st.title("Seller Issue Resolution Dashboard")
+st.title("Support Ticket Resolution Dashboard")
 st.caption(
     f"Periodo analisado: {start_date.strftime('%d/%m/%Y')} → {end_date.strftime('%d/%m/%Y')} "
     f"Comparação: {previous_start.strftime('%d/%m/%Y')} → {previous_end.strftime('%d/%m/%Y')}"
