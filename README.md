@@ -27,4 +27,4 @@ A ideia central do projeto é mostrar como dados podem ser usados para **diagnos
 > Adicione aqui uma imagem do dashboard, por exemplo:
 
 ```markdown
-![Dashboard Preview](/images/Seller Issue Dashboard.pdf)
+![Dashboard Preview](images/Seller Issue Dashboard.pdf)
